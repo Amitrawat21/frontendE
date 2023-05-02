@@ -135,6 +135,7 @@ const Product = () => {
         const res = await publicRequest.get(`/products/find/${id}`)
      
         setproducts(res.data)
+        
 
       }
       catch(err){
@@ -145,6 +146,8 @@ const Product = () => {
     getProducts()
 
   },[id])
+
+  console.log(product.size , "this is products id")
 
 
 
@@ -171,7 +174,7 @@ const Product = () => {
 
   }
 
-  console.log(product , "this is product")
+
 
   return (
     <Container>
@@ -191,7 +194,7 @@ const Product = () => {
             <Filter>
               <FilterTitle>Color</FilterTitle>
              {product.color && product.color.map((c)=>(
-              <FilterColor color= {c} key = {c}  onClick = {()=>setColor(c)}/>
+              <FilterColor color= {c} key = {c}  onClick = {()=>setColor(c)}></FilterColor>
              ))}
             </Filter>
             <Filter>

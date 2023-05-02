@@ -38,7 +38,7 @@ import {
   `;
   
   const Circle = styled.div`
-    width: 300px;
+    width: 280px;
     height: 300px;
     border-radius: 50%;
     background-color: white;
@@ -52,7 +52,7 @@ import {
   
   const Icon = styled.div`
     width: 40px;
-    height: 40px;
+    height: 40px;z
     border-radius: 50%;
     background-color: white;
     display: flex;

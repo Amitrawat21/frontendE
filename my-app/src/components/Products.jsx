@@ -5,7 +5,7 @@ import { popularProducts } from "../data";
 import Product from "./Product";
 
 const Container = styled.div`
-  padding: 20px;
+  padding: 2zzzzzz0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -26,6 +26,7 @@ const Products = ({ cat, filters, sort }) => {
             : "http://localhost:5000/api/products"
         );
         setproducts(res.data);
+        console.log(products , "this is unique car")
       } catch (err) {}
     };
     getProducts();
