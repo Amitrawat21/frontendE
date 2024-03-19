@@ -11,7 +11,7 @@ export const sliderItems = [
 
       {
         id: 2,
-        img: "http://stylesthatworkformen.com/wp-content/uploads/2014/05/2014-Mens-Summer-Fashion-Trends-Statement-Shorts-3.jpg",
+        img: "https://www.apetogentleman.com/wp-content/uploads/2019/08/summeroutfitsweb6.jpg",
         title: "MEN SUMMER",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "f6f4f8",
@@ -58,7 +58,7 @@ export const sliderItems = [
     },
     {
       id: 4,
-      img: "https://wasabi-files.lbstatic.nu/files/looks/medium/2023/02/01/5574464_ZP-527-SKY-BLUE_1_1800x1800.jpg?1675230348",
+      img: "https://i.pinimg.com/originals/b9/f3/88/b9f388e03bb2db0a4e74627029138a72.jpg",
       title: "DESI SUIT",
       cat : "suit"
     },

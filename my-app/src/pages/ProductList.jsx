@@ -27,7 +27,7 @@ const Filter = styled.div`
 `;
 
 const FilterText = styled.span`
-  font-size: 20px;
+ font-size: 20px;
   font-weight: 600;
   margin-right: 20px;
   ${mobile({ marginRight: "0px" })}
@@ -73,12 +73,13 @@ const ProductList = () => {
             <Option disabled selected>
               Color
             </Option>
-            <Option>yello</Option>
+            <Option>yellow</Option>
             <Option>black</Option>
             <Option>red</Option>
             <Option>blue</Option>
             <Option>yellow</Option>
             <Option>green</Option>
+            <Option>silver</Option>
           </Select>
           <Select name  = "size" onChange={handleFilters}>
             <Option disabled selected>

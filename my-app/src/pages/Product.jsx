@@ -134,7 +134,7 @@ const Product = () => {
       try{
         const res = await publicRequest.get(`/products/find/${id}`)
      
-        setproducts(res.data)
+        setproducts(res.data , "thi his idata")
         
 
       }
@@ -147,7 +147,7 @@ const Product = () => {
 
   },[id])
 
-  console.log(product.size , "this is products id")
+  console.log(product , "Jjjjjjj")
 
 
 
